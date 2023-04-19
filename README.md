@@ -48,14 +48,12 @@ https://github.com/David-Tambi/README.md/issues/2
 
 Решение:
 
-
-
-Мы нашли изменения балансов из-за прохождения уроков, а также баланс студентов, который сформирован только транзакциями. 
-Далее создаем *CTE* classes_by_dates_dates_cumsum для хранения кумулятивной суммы количества пройденных уроков. 
+Мы нашли изменения балансов из-за прохождения уроков, а также баланс студентов, который сформирован только транзакциями.
+Далее создаем *CTE* classes_by_dates_dates_cumsum для хранения кумулятивной суммы количества пройденных уроков.
 После чего *CTE* balances ****с вычисленными балансами каждого студента.
 В результате** получим *CTE *****balances ****со следующими полями: user_id, dt, transaction_balance_change, transaction_balance_change_cs, classes, classes_cs, balance (classes_cs + transaction_balance_change_cs).
 Чтобы посмотреть, как менялось общее количество уроков на балансах студентов.
--- Для этого просуммируем поля transaction_balance_change, transaction_balance_change_cs, classes, classes_cs, balance из CTE balances с группировкой и сортировкой по dt.
+— Для этого просуммируем поля transaction_balance_change, transaction_balance_change_cs, classes, classes_cs, balance из CTE balances с группировкой и сортировкой по dt.
 
 Вывод:
 
