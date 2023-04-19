@@ -29,7 +29,8 @@ https://github.com/David-Tambi/README.md/issues/2
 - Как это количество менялось под влиянием транзакций (оплат, начислений, корректирующих списаний) и уроков (списаний с баланса по мере прохождения уроков)
 
 Решение:
-https://metabase.sky.pro/question/61637
+[123.txt](https://github.com/David-Tambi/my-home/files/11269320/123.txt)
+
 
 Контактная информация
 Email: tamdavid133@gmail.com
